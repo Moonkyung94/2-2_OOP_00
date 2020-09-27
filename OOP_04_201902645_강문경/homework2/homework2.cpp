@@ -1,6 +1,6 @@
 #include<iostream>
 
-void swap(int &first, int &second) {//reference 
+void swap(int &first, int &second) {//reference 사용
     int temp = first;
     first = second;
     second = temp;
