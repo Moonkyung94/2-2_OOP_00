@@ -21,7 +21,7 @@ struct compLess {//Functor 오름차순
 		return cur < prev;//cur < prev 이면 1을 리턴, cur>=prev 이면 0을 리턴
 	}
 };
-struct compGreater {//Fuctor 내림차순
+struct compGreater {//Functor 내림차순
 	bool operator()(int cur, int prev) const {//operator() 구현
 		return cur > prev;//cur > prev 이면 1을 리턴, cur <= prev 이면 0을 리턴
 	}
